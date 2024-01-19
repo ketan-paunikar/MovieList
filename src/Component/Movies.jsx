@@ -29,7 +29,6 @@ const Movies = () => {
             })
             .catch(err => console.error(err));
     }
-    console.log(movies)
 
     useEffect(() => {
         getAllMovies();
